@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  
+  <style>
+    .superparent>b{
+      color: orange;
+    }
+    .parent b{
+      color:purple;
+    }
+    .elder~h1{
+      color: green;
+    }
+  </style>
+</head>
+<body >
+  <div class="superparent">
+    <b>I am super parent child</b>
+    <div class="parent">
+      <b>i ama parent child</b>
+      <div class="child">
+        <b>i am the children</b>
+      </div>
+    </div>
+  </div>
+  <div class="brother">
+
+    <h1 class="elder"> I am older brother1</h1>
+    <h1>I am older brother2</h1>
+    <b>maiores consequatur placeat, quidem laudantium!</b>
+    <h1>I am older brother3</h1>
+    <b>maiores consequatur placeat, quidem laudantium!</b>
+  </div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    p::first-letter{
+      color: red;
+      font-size: 50px;
+    }
+    p::before{
+      content: "Banglore ";
+    }
+    h1::first-line{
+      color: aqua;
+      font-size: 35px;
+      background-color: red;
+    }
+    button{
+      height: 25px;
+      width: 150px;
+    }
+    button::before{
+      content: "Click ";
+    }
+    button::after{
+      content: " Login";
+    }
+    input::placeholder{
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <br>
+  <input type="text" placeholder="Enter the text "><br><br>
+  <button>Here</button>
+  <br>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem consequuntur cum atque in voluptates suscipit assumenda quo, rem, mollitia qui debitis omnis. Maiores fugiat dolore eum alias atque dicta totam!</p>
+  <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia dolorum ex dicta earum exercitationem porro at numquam recusandae. Ex aperiam ratione quisquam, necessitatibus culpa officia sapiente vel eveniet illo perspiciatis.</h1>
+</body>
+</html>
